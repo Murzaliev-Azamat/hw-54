@@ -5,7 +5,7 @@ import GameBoard from "./containers/GameBoard/GameBoard";
 function App() {
   return (
     <div className="App">
-      <GameBoard></GameBoard>
+      <GameBoard size={36}></GameBoard>
     </div>
   );
 }

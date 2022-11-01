@@ -6,7 +6,7 @@ interface ButtonProps {
 
 const ButtonReset: React.FC<ButtonProps> = props => {
   return (
-    <div>
+    <div style={{marginTop: "5px"}}>
       <button onClick={props.reset}>Reset</button>
     </div>
   );
